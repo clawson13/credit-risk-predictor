@@ -15,16 +15,18 @@ Tableau, Pandas
 ## Prediction
 * The dataset is imbalanced, which should impact both models. However, the scatter plot matrix generated before testing (partial snapshot below) shows widespread linear relationships. For this reason, logistic regression is expected to outperform the random forests classifier since it is a linear model.
 
+![Scatter Plot Matrix](Images/matrix.png)
 
-## Dashboard Preview
+## Test Results
+* Scores:
+- Logistic Regression: 0.9924680148576145
+- Random Forest Classifier: 0.9915394139496492
 
-![Activity Charts](Images/activity.png)
+Although both models performed well, Logistic Regression did perform slightly better as predicted--but only to the thousandth degree of accuracy.
 
-![Ridership Charts](Images/ridership.png)
+![Logistic Regression](Images/logistic.png)
 
-## Station Map Preview
-
-![Station Map](Images/map.png)
+![Random Forest Classifier](Images/forest.png)
 
 ## Source
 
