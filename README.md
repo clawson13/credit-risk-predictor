@@ -3,17 +3,17 @@
 Prepared by Corey Lawson-Enos
 
 ## Summary
-* A comparison of machine learning models in scikit-learn that attempt to predict whether a loan will be approved or not. Study: Will LogisticRegression or RandomForestClassifier work better?
+* A comparison of machine learning models in scikit-learn that attempts to predict whether a loan will be approved or not. Will LogisticRegression or RandomForestClassifier work better?
 
 ## Technologies
-Tableau, Pandas
+Pandas, Scikit-learn, Jupyter Notebook
 
 ## Access
 * Data source: 'lending_data.csv' file saved to Resources folder in this repository. 
 * Use 'Credit Risk Evaluator.ipynb' Jupyter Notebook in this respository to recreate study.
 
 ## Prediction
-* The dataset is imbalanced, which should impact both models. However, the scatter plot matrix generated before testing (partial snapshot below) shows widespread linear relationships. For this reason, logistic regression is expected to outperform the random forests classifier since it is a linear model.
+* A preliminary review of the dataset shows imbalance, which should impact both models. However, the scatter plot matrix generated before testing shows widespread linear relationships among the features (partial snapshot below). For this reason, logistic regression is expected to outperform the random forests classifier since it is a linear model.
 
 ![Scatter Plot Matrix](Images/matrix.png)
 
