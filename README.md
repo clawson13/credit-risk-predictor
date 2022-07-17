@@ -10,7 +10,7 @@ Pandas, Scikit-learn, Jupyter Notebook
 
 ## Access
 * Data source: 'lending_data.csv' file saved to Resources folder in this repository. 
-* Use 'Credit Risk Evaluator.ipynb' Jupyter Notebook in this respository to recreate study.
+* Use 'Credit Risk Evaluator.ipynb' Jupyter Notebook in this repository to recreate study.
 
 ## Prediction
 * A preliminary review of the dataset shows imbalance, which should impact both models. However, the scatter plot matrix generated before testing shows widespread linear relationships among the features (partial snapshot below). For this reason, logistic regression is expected to outperform the random forests classifier since it is a linear model.
